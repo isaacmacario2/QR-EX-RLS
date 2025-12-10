@@ -24,7 +24,7 @@ For the Cholesky decomposition stage, one may use MATLAB’s built-in chol funct
 # How to use
 
 Download this repository and leave all the codes in the same folder. 
-For DPD applications use isaacmacario2/DPD repository.
+For DPD applications use isaacmacario2/DPD repository (https://github.com/isaacmacario2/DPD).
 
 # Main references
 
