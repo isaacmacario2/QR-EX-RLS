@@ -58,6 +58,7 @@ for k = 1:N
         Ps = S_est_inv*S_est_inv';
         Ps = (alpha^2)*Ps + q1*eye(m);
         S_inv = chol(Ps,'lower');
+        %S_inv = Cholesky(Ps);
     end
 
     %---------------------------------------
@@ -93,3 +94,4 @@ for k = 1:N
 
 end
 end
+
