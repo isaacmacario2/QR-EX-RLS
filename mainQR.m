@@ -1,7 +1,7 @@
 % System Parameters
 sigma2_n = 1e-3;         % Noise variance  
 sigma2_x = 1e-1;         % Signal variance
-sampleInterval = 0.8e-6; % Sampling frequency is 1MHz
+sampleInterval = 0.8e-6; % Sampling frequency is 1.25MHz
 N = 500;                % Number of samples
 dopplerFrequency = 1000; % Doppler frequency
 m = 5;                   % Channel length
@@ -133,3 +133,4 @@ legend('EX-RLS','G-EX-RLS','H-EX-RLS');
 grid on;
 set(gca, 'FontName', 'Times New Roman');
 set(gca, 'FontSize', 14);
+
